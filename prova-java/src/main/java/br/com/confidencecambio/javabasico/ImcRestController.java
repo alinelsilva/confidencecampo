@@ -26,11 +26,11 @@ public class ImcRestController {
 	    }
 
 
-	@RequestMapping(value = "/calculo", method = RequestMethod.GET)	
-	  public ResponseEntity<String> olaMundo(@RequestParam(value = "iCalculo", required = false) double iCalculo) {
-        var retorno = "Seu peso  " + service.calculo(iCalculo);
-        
-        return new ResponseEntity<>(retorno, HttpStatus.OK);
-    }
+//	@RequestMapping(value = "/calculo", method = RequestMethod.GET)	
+//	  public ResponseEntity<String> olaMundo(@RequestParam(value = "iCalculo", required = false) double iCalculo) {
+//        var retorno = "Valor " + service.calculo(iCalculo);
+//        
+//        return new ResponseEntity<>(retorno, HttpStatus.OK);
+//    }
 
 }
